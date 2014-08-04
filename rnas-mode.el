@@ -1,7 +1,7 @@
 ;;my super minor restart-node-after-save-mode
 (define-minor-mode rnas-mode
   "Restart node.js after save."
-  :lighter "rnas"
+  :lighter " RNAS"
   :global t
   
   (defvar cur-buf nil)
